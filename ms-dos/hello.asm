@@ -8,7 +8,7 @@
 	.RADIX	16				; Using HEX base.
 
 	.DATA
-msg	DB 	"Hello, word! $" 	; The print routine reads the dollar
+msg	DB 	"Hello, word! $" 		; The print routine reads the dollar
 						;  sign as the end of the string.
 
 	.CODE
